@@ -351,7 +351,7 @@ const PatientList = () => {
             >
               <div className="flex items-center space-x-4">
                 {/* Profile Image/Initials */}
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full flex items-center justify-center group-hover:from-blue-200 group-hover:to-indigo-200 transition-all duration-200">
+                <div className="w-12 h-12 bg-linear-to-br from-blue-100 to-indigo-100 rounded-full flex items-center justify-center group-hover:from-blue-200 group-hover:to-indigo-200 transition-all duration-200">
                   {patient.profileImage ? (
                     <img 
                       src={patient.profileImage} 
